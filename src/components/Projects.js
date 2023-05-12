@@ -1,9 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import styled from 'styled-components'
+import under_construction from '../resources/under_construction.png'
 
-const Projects = () => (
+const Title = styled.h1`
+  text-align: center; 
+  font-weight: normal;
+  font-size: 3em;
+  text-decoration: underline;
+  color: #E0B0FF;
+  margin: 0;
+  padding: 1em;
+`
+
+const Projects = () => {
+    useEffect(()=> {
+        document.title = "Projects | Pending"
+    }, [])
+
+    return (
     <div>
-        <h2>Under Construction. Please check in again soon!</h2>
+        <Title>Projects</Title>
+        <img src={under_construction} alt="this web page is under construction" />
     </div>
-);
+)};
 
 export default Projects;
