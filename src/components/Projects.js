@@ -11,6 +11,15 @@ const Title = styled.h1`
   margin: 0;
   padding: 1em;
 `
+const UnderConstructionImg = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+  height: 30em;
+
+
+`
 
 const Projects = () => {
     useEffect(()=> {
@@ -20,7 +29,7 @@ const Projects = () => {
     return (
     <div>
         <Title>Projects</Title>
-        <img src={under_construction} alt="this web page is under construction" />
+        <UnderConstructionImg src={under_construction} alt="this web page is under construction" />
     </div>
 )};
 

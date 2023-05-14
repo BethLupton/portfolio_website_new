@@ -2,9 +2,17 @@ import React from 'react';
 import {Link } from 'react-router-dom';
 import styled from 'styled-components'
 
+const Name = styled.h1`
+text-align: center;
+color: #E0B0FF;
+font-size: 3em;
+font-weight: 500;
+
+`
+
 const NavLinks = styled.ul`
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 20px;
     padding-right: 50px;
 `
@@ -14,7 +22,7 @@ const NavLinkItem = styled.li`
 `
 
 const NavLink = styled(Link)`
-font-size: 2em;
+font-size: 1.5em;
 color: #E0B0FF;
 text-decoration: none;
 &:hover {
@@ -26,17 +34,20 @@ text-decoration: none;
 const NavBar = () => {
     return(
         <div>
+        <header>
+            <Name>Beth Lupton</Name>
         <NavLinks>
             <NavLinkItem>
-                <NavLink to="/portfolio_website_new">About</NavLink>
+                <NavLink to="/portfolio_website_new">About |</NavLink>
             </NavLinkItem>
             <NavLinkItem>
-                <NavLink to="/projects">Projects</NavLink>
+                <NavLink to="/projects">Projects |</NavLink>
             </NavLinkItem>
             <NavLinkItem>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/contact">Contact |</NavLink>
             </NavLinkItem>
         </NavLinks>
+        </header>
         </div>
     )
 }
