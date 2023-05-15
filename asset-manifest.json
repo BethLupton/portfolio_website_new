@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio_website_new/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio_website_new/static/js/main.f27982fb.js",
+    "main.css": "/portfolio_website_new/static/css/main.d29b3a11.css",
+    "main.js": "/portfolio_website_new/static/js/main.11d18880.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio_website_new/static/js/787.749b4a44.chunk.js",
+    "static/media/beth_lupton.jpeg": "/portfolio_website_new/static/media/beth_lupton.10fed8754ded51c04e63.jpeg",
+    "static/media/under_construction.png": "/portfolio_website_new/static/media/under_construction.1a59ea7c2e889dcfaac2.png",
     "index.html": "/portfolio_website_new/index.html",
-    "main.073c9b0a.css.map": "/portfolio_website_new/static/css/main.073c9b0a.css.map",
-    "main.f27982fb.js.map": "/portfolio_website_new/static/js/main.f27982fb.js.map",
+    "main.d29b3a11.css.map": "/portfolio_website_new/static/css/main.d29b3a11.css.map",
+    "main.11d18880.js.map": "/portfolio_website_new/static/js/main.11d18880.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio_website_new/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f27982fb.js"
+    "static/css/main.d29b3a11.css",
+    "static/js/main.11d18880.js"
   ]
 }
