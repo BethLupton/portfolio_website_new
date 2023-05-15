@@ -17,8 +17,6 @@ const UnderConstructionImg = styled.img`
   margin-right: auto;
   width: 50em;
   height: 30em;
-
-
 `
 
 const Projects = () => {
